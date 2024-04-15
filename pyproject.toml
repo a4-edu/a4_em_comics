@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "a4_em_comics"
+description = "Task for A4 master candidates"
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+    "scikit-learn",
+    "matplotlib"
+]
+
+[tool.hatch]
+build.sources = ["."]
